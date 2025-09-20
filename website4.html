@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CoreTestLabs</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+      color: #333;
+      background-color: #f9f9f9;
+    }
+
+    header {
+      background: #1a73e8;
+      color: #fff;
+      padding: 20px 40px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+    header img {
+      height: 50px;
+      margin-right: 10px;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 1.5rem;
+    }
+
+    .logo {
+      display: flex;
+      align-items: center;
+    }
+
+    nav a {
+      color: #fff;
+      margin-left: 20px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    nav a:hover {
+      text-decoration: underline;
+    }
+
+    .hero {
+      background: url('https://images.pexels.com/photos/1181244/pexels-photo-1181244.jpeg') center/cover no-repeat;
+      color: #fff;
+      text-align: center;
+      padding: 100px 20px;
+    }
+
+    .hero h2 {
+      font-size: 2.5rem;
+      margin-bottom: 10px;
+    }
+
+    .container {
+      width: 90%;
+      max-width: 1200px;
+      margin: 40px auto;
+    }
+
+    .services {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 20px;
+    }
+
+    .service-card {
+      background: #fff;
+      border-radius: 8px;
+      padding: 20px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+      transition: transform 0.2s;
+    }
+
+    .service-card:hover {
+      transform: translateY(-5px);
+    }
+
+    .service-card img {
+      width: 100%;
+      height: 150px;
+      object-fit: cover;
+      border-radius: 6px;
+    }
+
+    .service-card h3 {
+      margin: 15px 0 10px;
+      color: #1a73e8;
+    }
+
+    footer {
+      background: #1a73e8;
+      color: #fff;
+      text-align: center;
+      padding: 20px;
+      margin-top: 40px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <div class="logo">
+      <img src="https://cdn-icons-png.flaticon.com/512/3471/3471546.png" alt="CoreTestLabs Logo">
+      <h1>CoreTestLabs</h1>
+    </div>
+    <nav>
+      <a href="#services">Services</a>
+      <a href="#about">About</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h2>Empowering Quality Through Testing Excellence</h2>
+    <p>Automation • Performance • Functional Testing</p>
+  </section>
+
+  <section id="services" class="container">
+    <h2>Our Services</h2>
+    <div class="services">
+      <div class="service-card">
+        <img src="https://images.pexels.com/photos/1181675/pexels-photo-1181675.jpeg" alt="Automation Testing">
+        <h3>Automation Testing</h3>
+        <p>Automation testing with and without scripts for web, API, mobile, and database applications.</p>
+      </div>
+      <div class="service-card">
+        <img src="https://images.pexels.com/photos/1181316/pexels-photo-1181316.jpeg" alt="Performance Testing">
+        <h3>Performance Testing</h3>
+        <p>Comprehensive load, stress, endurance, breakpoint, reliability, and volume testing services.</p>
+      </div>
+      <div class="service-card">
+        <img src="https://images.pexels.com/photos/3861969/pexels-photo-3861969.jpeg" alt="Functional Testing">
+        <h3>Functional Testing</h3>
+        <p>Accurate validation for web, mobile, database, and API applications to ensure business workflows work seamlessly.</p>
+      </div>
+      <div class="service-card">
+        <img src="https://images.pexels.com/photos/1181671/pexels-photo-1181671.jpeg" alt="CI/CD Pipelines">
+        <h3>Jenkins CI/CD Pipelines</h3>
+        <p>Integration of Jenkins pipelines to streamline automation testing and reporting workflows.</p>
+      </div>
+      <div class="service-card">
+        <img src="https://images.pexels.com/photos/1181263/pexels-photo-1181263.jpeg" alt="Reports & Readouts">
+        <h3>Reports & Readouts</h3>
+        <p>Detailed test reports and readouts for informed decision-making and performance tracking.</p>
+      </div>
+      <div class="service-card">
+        <img src="https://images.pexels.com/photos/1181332/pexels-photo-1181332.jpeg" alt="Infra & Client Site Testing">
+        <h3>Infra & Client Site Testing</h3>
+        <p>Setup of testing infrastructure and support for client-site testing engagements.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="about" class="container">
+    <h2>About Us</h2>
+    <p>
+      CoreTestLabs is an IT consulting firm specializing in delivering top-notch testing solutions. 
+      With expertise in automation, performance, and functional testing, we ensure your applications are robust, reliable, and ready for scale. 
+      Our mission is to empower businesses with quality software through innovative testing practices.
+    </p>
+  </section>
+
+  <section id="contact" class="container">
+    <h2>Contact Us</h2>
+    <p>Email: contact@coretestlabs.com</p>
+    <p>Phone: +1 (555) 123-4567</p>
+    <p>Location: Your City, Country</p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 CoreTestLabs. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
